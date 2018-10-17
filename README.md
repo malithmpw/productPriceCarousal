@@ -10,7 +10,7 @@ by Adding KohlsCarousalCurrentItemData listner to carousal instance, current pos
 ## Usage
 
 Eg: 
-```
+```java
 KohlsPriceCarousal carousal = findViewById(R.id.productsOfProduct_carousal);
 ProductsOfProducts productInfo = products.get(position);
 carousal.setData(productInfo.getProductInfos(), position); //position set to 0 if carousal is not used in a recycleview or list
