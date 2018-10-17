@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.mpw.slider.sliderinsidelist.KohlsPriceCarousal
+        android:id="@+id/productsOfProduct_carousal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:carousal_background_color="#000000"
+        app:carousal_image_height="350dp"
+        app:carousal_image_width="350dp"
+        app:carousal_height="360dp"
+        app:carousal_width="600dp" />
+
+</LinearLayout>

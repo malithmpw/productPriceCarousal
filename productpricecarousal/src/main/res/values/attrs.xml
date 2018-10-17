@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="KohlsPriceCarousal">
+        <attr name="carousal_width" format="dimension" />
+        <attr name="carousal_height" format="dimension" />
+        <attr name="carousal_image_height" format="dimension" />
+        <attr name="carousal_image_width" format="dimension" />
+        <attr name="carousal_background_color" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="DiscreteScrollView">
+        <attr name="dsv_orientation" format="enum">
+            <enum name="horizontal" value="0" />
+            <enum name="vertical" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
